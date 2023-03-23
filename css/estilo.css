@@ -1,0 +1,214 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@300&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kaushan+Script&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,400;1,200;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 400;
+    background: linear-gradient( #585A7A,#6973FB,#33387A);
+    
+}
+
+.marca {
+    height: 150px;
+}
+
+.paginas {
+    display: flex;
+    gap: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(230, 221, 221);
+    font-size: larger;
+} 
+
+.paginas :hover {
+    cursor: pointer;
+    color: rgb(61, 40, 40);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.conteudo {
+    margin-bottom: 45px;
+    padding: 20px;
+    border-top: 0.4px solid rgb(160, 159, 159);
+    width: 1000px;
+    margin: auto;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-de-todos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+}
+
+.conteudo-port {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: beige;
+}
+
+.conteudo-front {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(207, 207, 174);
+}
+
+.botao {
+    width: 180px;
+    height: 65px;
+    border-color: #3498db;
+    color: #110101;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+    border-radius: 20px;
+    font-size: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 0px 0px rgb(102, 102, 102);
+}
+
+.botao:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    border-radius: 20px;
+    background-color:  whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+.caricatura {
+    height: 200px;
+    gap: 30px;
+
+}
+
+.separacao {
+    margin-bottom: 45px;
+    padding: 15px;
+    border-top: 0.4px solid rgb(160, 159, 159);
+}
+
+.sobre-mim {
+    margin: 35px;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color:rgb(230, 221, 221)
+}
+
+.texto {
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.separacao-1 {
+    margin: 20px;
+    border-top: 0.4px solid rgb(160, 159, 159);
+}
+.habilidades-desenvolvidas {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    font:bolder;
+    text-align: center;
+    color: beige;
+    font-size: 100px;
+    font-family:'Oswald', sans-serif;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    height: 150px;
+    
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    margin: 75px;
+    gap: 15px;
+    height: 200px;
+    
+}
+
+.separacao-2 {
+    margin: 20px;
+    border-top: 0.4px solid rgb(160, 159, 159);
+}
+
+.proj {
+    font: 400;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+    color: bisque;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.seta {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 183px;
+    width: 304px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.rodape {
+   border-top:solid rgb(160, 159, 159);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
